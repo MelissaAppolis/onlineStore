@@ -15,10 +15,28 @@
 
 ## Installation
 
-You can install this project to your local environment by typing in the following code git clone https://github.com/MelissaAppolis/onlineStore.git
+You can install this project to your local environment by typing in the following `code-git-clone-https://github.com/MelissaAppolis/onlineStore.git`
 
 ## Usage
 
 * Once you have installed The Baby Boutique website. Open the BabyBoutiqueHomePage.html in your browser. Use the navigation bar to naviagte your way through the website.
 ![Navigation Bar](/Images/Screenshots/navigationBarScreenshot.png)
-* Click on Shop in the navigation bar. You can look add a clothing item to cart by clicking on add to cart button at the bottome of each item. Once you have added an item to your cart, the cart notification in the navigation bar will automatically be updated.
+* Click on Shop in the navigation bar. You can add a clothing item to cart by clicking on add to cart button at the bottom of each item. Once you have added an item to your cart, the cart notification in the navigation bar will automatically be updated and an alert wil pop up notifying you your total cost.
+![Add to Cart](/Images/Screenshots/addToCartScreenshot.png)
+* View product details by clicking onto the product image.
+![Add to Cart](/Images/Screenshots/viewProductDetailsScreenshot.png)
+* Zoom on product image by clicking onto the image, this can only be done in the product details page
+![Add to Cart](/Images/Screenshots/viewProductImageScreenshot.png)
+* View how much products you have in the cart by clicking on the cart notification in the navigation bar. 
+![Add to Cart](/Images/Screenshots/productsInCart.png)
+  * Add discount code and delivery charge to your total cost.
+  ![Add to Cart](/Images/Screenshots/applyDiscountandDeliveryScreenshot.png)
+  * Confirm Order by clicking on cornfirm order button.
+  ![Add to Cart](/Images/Screenshots/confirmOrderScreenshot.png)
+* Register or login by clicking on the links in the navigation bar
+![Add to Cart](/Images/Screenshots/registerScreenshot.png)
+![Add to Cart](/Images/Screenshots/loginScreenshot.png)
+
+## Credits
+
+Created by 
