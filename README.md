@@ -39,4 +39,4 @@ You can install this project to your local environment by typing in the followin
 
 ## Credits
 
-Created by 
+Created by [@MelissaAppolis](https://github.com/MelissaAppolis) - feel free to contact me!
