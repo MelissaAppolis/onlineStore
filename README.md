@@ -9,7 +9,7 @@
 
 ### Table of Contents
 * [Description](#description)
-* [Installation](#installtion)
+* [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
 
@@ -20,4 +20,5 @@ You can install this project to your local environment by typing in the followin
 ## Usage
 
 * Once you have installed The Baby Boutique website. Open the BabyBoutiqueHomePage.html in your browser. Use the navigation bar to naviagte your way through the website.
-![Nav Bar](/Images/navigationBarScreenshot.png)
+![Navigation Bar](/Images/Screenshots/navigationBarScreenshot.png)
+* Click on Shop in the navigation bar. You can look add a clothing item to cart by clicking on add to cart button at the bottome of each item. Once you have added an item to your cart, the cart notification in the navigation bar will automatically be updated.
