@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Register | The Baby Boutique</title>
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" type=text/css href="css/bootstrap.min.css">
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" type="text/css" href="BabyBoutiqueStyleSheet.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JQuery Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="mainHeading">The Baby Boutique</h1>
+        <p id="description">Cosy & Comfy Fashion for Kids</p>
+    </header>
+    <!------------------------------------ NAVIGATION BAR -------------------------------------------->
+    <div class="mainNavigation" id="myMainNavigation">
+        <ul class="navBar">
+            <li><a class="home" href="BabyBoutiqueHomePage.html">Home</a></li>
+            <li class="dropdown">
+                <a class="shop" href="Shop.html">Shop
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-menu">
+                    <a href="#">Girls</a>
+                    <a href="#">Boys</a>
+                    <a href="#">Accessories</a>
+                </div>
+            </li>
+            <li><a class="sales" href="Sales.html">Sale</a></li>
+            <li><a class="about" href="About.html">About</a></li>
+            <li><a class="contact" href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="cart-container">
+            <button class="cart" type="submit" onclick="document.location='ShoppingCart.html'"> Cart
+                <i class="fa fa-shopping-bag" style="font-size: 25px"></i>
+                <span class="notificationBadge" id="badge">0</span>
+            </button>
+        </div>
+        <div class="loginRegister-container">
+            <form action="/Users/melissa/Dropbox/Melissa%20Appolis-56183/Web%20Development%20Essentials/Task%2015/Online%20Store/Login.html">
+                <button class="login" type="submit">Login</button>
+            </form>
+            <form action="/Users/melissa/Dropbox/Melissa%20Appolis-56183/Web%20Development%20Essentials/Task%2015/Online%20Store/Register.html">
+                <button class="register" type="submit">Register</button>
+            </form>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <!------------------------------------ REGISTER FORM -------------------------------------------->
+    <!-- Create a form for users to register -->
+    <form class="RegisterForm">
+        <h2 id="Register">Register</h2>
+        <!--Added .row for form-group to create horizontal form.-->
+        <div class="form-group row">
+            <!--class=col-sm-2 is added to specify width of the labels and controls.
+        col-form-label is added to vertically center the form contols.-->
+            <label for="inputFirstName" class="col-sm-2 col-form-label">First Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputLastName" class="col-sm-2 col-form-label">Last Name</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+            </div>
+        </div>
+        <p id="Shoppingfor">Who are you shopping for?</p>
+        <!-- radio class used to create a 3 radio buttons for users to choose 1 option. -->
+        <div class="radio">
+            <label><input type="radio" name="optradio"> Baby Boy</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="optradio"> Baby Girl</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="optradio"> Both</label>
+        </div>
+        <div class="form-group row">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Email Address</label>
+            <div class="col-sm-6">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-6">
+                <input type="Password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+        </div>
+    </form>
+    <hr>
+    <!------------------------------------ FOOTER INFO -------------------------------------------->
+    <!-- Added links and styles to my footer content. -->
+    <footer>
+        <h5 style="color:cadetblue;">Do You Have a Question?</h5>
+        <p style="color:cadetblue;">Drop a mail to <a style="font-weight:bold;color:cadetblue;" href="mailto:info@babyboutique.com">info@babyboutique.com</a></p>
+        <p style="color:cadetblue;">Check out <a style="font-weight:bold;color:cadetblue;" href="https://sacoronavirus.co.za">sacoronavirus.co.za</a> for information regarding COVID-19 in South Africa</p>
+        <p style="text-align:center;"> The Baby Boutique. All Rights Reserved. Proudly created by Melissa Appolis</p>
+    </footer>
+    <script type="text/javascript" src="BabyBoutiqueJavascript.js"></script>
+    <!-- Sweet Alert styling for alert box -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Script below enables the JavaScript JQuery, Popper.js in order for the Bootsrap components to function. -->
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
