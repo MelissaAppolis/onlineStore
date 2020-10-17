@@ -124,31 +124,48 @@ header {
     color: white;
 }
 
-.mainNavigation .loginRegister-container button {
+.mainNavigation .loginRegister-container {
     float: right;
-    padding: 5px 12px;
-    margin-top: 1px;
+    padding: 1px 5px;
+    margin-top: 0px;
     background-color: white;
     font-size: 17px;
     cursor: pointer;
 }
 
+.mainNavigation .loginRegister-container .register:hover {
+    color: darkseagreen;
+}
+
+.mainNavigation .loginRegister-container .login:hover {
+    color: darkseagreen;
+}
+
 .mainNavigation .loginRegister-container .register {
-    margin-right: 0px;
+    float: right;
+    margin-right: 10px;
+    padding-left: 5px;
     border-left: 2px solid gainsboro;
     border-top: none;
     border-right: none;
     border-bottom: none;
     margin-top: 2px;
+    text-decoration: none;
+    color: black;
 }
 
 .mainNavigation .loginRegister-container .login {
+    float: right;
+    margin-right: 5px;
     margin-left: 0px;
     margin-top: 2px;
+    padding-left: 5px;
     border-left: 2px solid gainsboro;
     border-top: none;
     border-right: none;
     border-bottom: none;
+    text-decoration: none;
+    color: black;
 }
 
 .mainNavigation button:hover {
