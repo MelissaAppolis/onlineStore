@@ -7,6 +7,8 @@
 * Parents who are looking for stylish, unique and inexpensive clothing for their baby will mostly use this website. 
 * The Baby Boutique goal is to provide a service that allows users to easily navigate The Baby Boutique website to find exactly what they are looking for, and purchase their chosen products.
 
+Check out the [website](https://melissaappolis.github.io/onlineStore/) here
+
 ### Table of Contents
 * [Description](#description)
 * [Installation](#installation)
