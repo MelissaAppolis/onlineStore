@@ -536,10 +536,10 @@ Resized the images to have equal height size and used object-fit to scale the im
 
 #imageZoomIcon {
     position: absolute;
-    left: 520px;
+    left: 518px;
     font-size: 25px;
     background-color: rgba(255, 255, 255, 0.658);
-    bottom: 74px;
+    bottom: -183px;
     padding: 12px;
     border-radius: 45px;
     width: 50px;
