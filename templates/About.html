@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>About Us | The Baby Boutique</title>
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../css/BabyBoutiqueStyleSheet.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JQuery Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Font -->
+     <link rel="stylesheet" type="text/css" href="../fonts/poppinsFont.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="mainHeading">The Baby Boutique</h1>
+        <p id="description">Cosy & Comfy Fashion for Kids</p>
+    </header>
+    <!------------------------------------ NAVIGATION BAR -------------------------------------------->
+    <div class="mainNavigation" id="myMainNavigation">
+        <ul class="navBar">
+            <li><a class="home" href="../index.html">Home</a></li>
+            <li class="dropdown">
+                <a class="shop" href="Shop.html">Shop
+                    <!-- <i class="fa fa-caret-down"></i> -->
+                </a>
+                <!-- <div class="dropdown-menu">
+                    <a href="#">Girls</a>
+                    <a href="#">Boys</a>
+                    <a href="#">Accessories</a>
+                </div> -->
+            </li>
+            <li><a class="sales" href="#">Sale</a></li>
+            <li><a class="active" href="About.html">About</a></li>
+            <li><a class="contact" href="#">Contact</a></li>
+        </ul>
+        <div class="cart-container">
+            <button class="cart" type="submit" onclick="document.location='ShoppingCart.html'"> Cart
+                <i class="fa fa-shopping-bag" style="font-size: 25px"></i>
+                <span class="notificationBadge" id="badge">0</span>
+            </button>
+        </div>
+        <div class="loginRegister-container">
+            <a class="login" href="Login.html">Login</a>
+            <a class="register" href="Register.html">Register</a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+    <!------------------------------------ ABOUT US -------------------------------------------->
+    <br>
+    <hr>
+    <h2 id="AboutUsHeading">About Us</h2>
+    <!-- clearfix used to fix the overflowing of elements around the element containing it. -->
+    <div class="clearfix AboutUsBox">
+        <img id="AboutUsImage" src="https://i.pinimg.com/564x/0d/11/75/0d1175ece65da6ec990998326aaddcee.jpg" alt="AboutUsImage">
+        <p style="text-align:center;padding-top:80px;margin-left:40px;margin-right:40px;">The Baby Boutique is an online store focused on a carefully curated collection for babies aging from newborn to 24 months - all shocased on in an easy-to-use, beautifully designed online shop that will keep you coming back time and again.<br><br>The collection includes all baby essentials, from all-in-ones and rompers to pants and little socks, while keeping your little one stylish and most importantly comfy! The Baby Boutique sources the finest quality fabric to ensure the longest life span. Hoping to be a hammy-down for your next baby!<br><br>Owned by a mom living in South Africa who was unable to find affordable yet uniquely styled and comfortable clothing available locally. Momma's always strive to provide the best for their baby and The Baby Boutique has all your baby clothing essentials styled to perfection with the main focus of keeping baby comfy and cozy.<br>What more do you need?</p>
+    </div>
+    <br>
+    <!------------------------------------ SUBSCRIPION FORM -------------------------------------------->
+    <!--Create a form for users to input their email address to receive email notifications.-->
+    <form class="SubcsribeForm">
+        <h2 id="subscriptionInfo">Subscribe to our newsletter to recieve the latest deals!</h2>
+        <!--Added .row for form-group to create horizontal form.-->
+        <!--class=col-sm-2 is added to specify width of the labels and controls.
+        col-form-label is added to vertically center the form contols.-->
+        <div class="form-group row justify-content-center">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Email Address</label>
+            <div class="col-sm-6">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            <div>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="Submit">Subscribe</button>
+            </div>
+        </div>
+    </form>
+    <!------------------------------------ FOOTER INFO -------------------------------------------->
+    <!-- Added links and styles to my footer content. -->
+    <footer class="py-5">
+        <h5 style="color:cadetblue;">Do You Have a Question?</h5>
+        <p style="color:cadetblue;">Drop a mail to <a style="font-weight:bold;color:cadetblue;" href="mailto:info@babyboutique.com">info@babyboutique.com</a></p>
+        <p style="color:cadetblue;">Check out <a style="font-weight:bold;color:cadetblue;" href="https://sacoronavirus.co.za">sacoronavirus.co.za</a> for information regarding COVID-19 in South Africa</p>
+        <p style="text-align:center;"> The Baby Boutique. All Rights Reserved. Proudly created by Melissa Appolis</p>
+    </footer>
+    <script type="text/javascript" src="../js/BabyBoutiqueJavascript.js"></script>
+    <!-- Sweet Alert styling for alert box -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Script below enables the JavaScript JQuery, Popper.js in order for the Bootsrap components to function. -->
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
