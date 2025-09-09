@@ -392,7 +392,7 @@ function displayCart() {
             productContainer.innerHTML += ` 
 			<div class="product">
 				<i class="fa fa-close"></i>
-				<img src="/Images/Shop Images/${item.tag}.jpg">
+				<img src="../Images/Shop Images/${item.tag}.jpg">
 				<span>${item.name}</span>
 			</div>
 			<div class="price">R${item.price}.00</div>
